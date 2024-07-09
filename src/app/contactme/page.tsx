@@ -35,7 +35,7 @@ const ContactMe = () => {
     >
     <div className='bg-customGray w-full min-h-screen flex flex-col justify-between font-baskervville font-normal'>
       <div className="flex justify-between relative">
-        <div className="flex flex-col text-xl px-10 py-5">
+        <div className="flex flex-col text-xl px-10 text-black py-5">
           <Link href="/service" className="inline-block transition-transform duration-900 delay-200 hover:rotate-12 hover:-translate-x-2">
             Service
           </Link>
@@ -79,7 +79,7 @@ const ContactMe = () => {
       </div>
       <div>
         <Link href="/contactform"
-          className='text-10xl font-semibold flex justify-center font-basic'
+          className='text-10xl text-black font-semibold flex justify-center font-basic'
           onMouseEnter={() => setUnderline(true)}
           onMouseLeave={() => setUnderline(false)}
         >
