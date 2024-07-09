@@ -47,8 +47,8 @@ const About = () => {
   </div>
   <h1 className='text-6xl text-white mt-10 ml-10 pb-14 font-semibold selection:text-red-500'>I combine creativity with usability and deliver efficient solutions.</h1>
   </div>
-    <div className=' mx-20 my-20 flex justify-between gap-60 bg-customGray text-black'>
-      <p className='flex items-center justify-start text-xl font-baskervville'>Experience</p>
+    <div className=' mx-20 my-20 flex justify-between gap-60'>
+      <p className='flex items-center text-white justify-start text-xl font-baskervville'>Experience</p>
       <div>
       <motion.p variants={itemVariants} className="text-2xl">
       I bring a wealth of experience across a diverse array of projects, encompassing everything from essential web presences to intricate, cutting-edge web applications.
