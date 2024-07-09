@@ -47,7 +47,7 @@ const About = () => {
   </div>
   <h1 className='text-6xl text-white mt-10 ml-10 pb-14 font-semibold selection:text-red-500'>I combine creativity with usability and deliver efficient solutions.</h1>
   </div>
-    <div className=' mx-20 my-20 flex justify-between gap-60'>
+    <div className=' mx-20 my-20 flex justify-between gap-60 bg-customGray text-black'>
       <p className='flex items-center justify-start text-xl font-baskervville'>Experience</p>
       <div>
       <motion.p variants={itemVariants} className="text-2xl">
