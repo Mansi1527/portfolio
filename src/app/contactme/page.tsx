@@ -33,7 +33,7 @@ const ContactMe = () => {
       whileInView={{ opacity: 1 }}
       
     >
-    <div className='bg-[#DADADA] w-full min-h-screen flex flex-col justify-between font-baskervville font-normal'>
+    <div className='bg-[#fafef7]  w-full min-h-screen flex flex-col justify-between font-baskervville font-normal'>
       <div className="flex justify-between relative">
         <div className="flex flex-col text-xl px-10 text-black py-5">
         <div>

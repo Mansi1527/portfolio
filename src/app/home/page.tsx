@@ -7,10 +7,11 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     
-    <div className="">
+    <div className="bg-[#fafef7] ">
       
-      <div className="relative">
-        <Header />
+      
+      <div className="">
+        <Header/>
         <Homedata />
       </div>
     </div>
