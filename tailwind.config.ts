@@ -17,8 +17,8 @@ const config: Config = {
       '5xl': '3.052rem',
       "6xl": '3.75rem',
       "7xl":"4rem",
-      "8xl":"4.5rem",
-      "9xl":"5rem",
+      "8xl":"7rem",
+      "9xl":"10rem",
       "10xl": '13rem',
     },
     fontFamily:{
@@ -40,5 +40,6 @@ const config: Config = {
   plugins: [
     require('daisyui'),
   ],
+  
 };
 export default config;

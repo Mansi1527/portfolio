@@ -32,6 +32,7 @@ import HomePage from "./home/page";
 
 export default function Home() {
   return (
+    
     <main className="font-basic relative w-full min-h-screen text-white p-5" style={{ overflow: 'hidden' }}>
     {/* <main> */}
 {/* //       Background Image */}
@@ -57,6 +58,7 @@ export default function Home() {
         <HomePage />
      </div>
      </div>
+     
     </main>
        );
 } 

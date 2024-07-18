@@ -33,18 +33,12 @@ const ContactMe = () => {
       whileInView={{ opacity: 1 }}
       
     >
-    <div className='bg-customGray w-full min-h-screen flex flex-col justify-between font-baskervville font-normal'>
+    <div className='bg-[#DADADA] w-full min-h-screen flex flex-col justify-between font-baskervville font-normal'>
       <div className="flex justify-between relative">
         <div className="flex flex-col text-xl px-10 text-black py-5">
-          <Link href="/service" className="inline-block transition-transform duration-900 delay-200 hover:rotate-12 hover:-translate-x-2">
-            Service
-          </Link>
-          <Link href="/work" className="inline-block transition-transform duration-900 delay-200 hover:rotate-12 hover:-translate-x-2">
-            Work
-          </Link>
-          <Link href="/about" className="inline-block transition-transform duration-900 delay-200 scroll-smooth hover:rotate-12 hover:-translate-x-2">
-            About
-          </Link>
+        <div>
+          <p className="inline-block transition-transform duration-900 delay-200 hover:rotate-12 hover:-translate-x-2">Mansi Yadav</p>
+        </div>
         </div>
         <div className="absolute mt-10 left-1/2 transform -translate-x-1/2">
           <p className='flex items-center gap-1'><MdOutlineLanguage />IN</p>
@@ -61,17 +55,17 @@ const ContactMe = () => {
           <AnimatePresence>
             {menuOpen && (
               <motion.div
-                className="bg-black flex flex-col text-white absolute right-0 mr-5 mt-5 px-20 py-3 shadow-lg rounded-lg"
+                className=" md:text-lg lg:text-lg xl:text-xl bg-black flex flex-col text-white absolute right-0 mr-5 mt-5 px-20 md:px-10 xl:py-3 xl:px-20 md:py-1 py-3 shadow-lg rounded-lg"
                 variants={menuVariants}
                 initial="hidden"
                 animate="visible"
                 exit="exit"
                 onMouseLeave={handleMouseLeave}
               >
-                <Link href="/" className="py-1 hover:underline">Home</Link>
-                <Link href="/about" className="py-1 hover:underline">About</Link>
-                <p className="py-1">[Contact me]</p>
-                <Link href="/experience" className="py-1 hover:underline">Experience</Link>
+                <Link href="/" className="py-1 hover:underline scale-100  hover:scale-150 ease-out duration-500 ">Home</Link>
+                <Link  href="/about" className="py-1 hover:underline scale-100  hover:scale-150 ease-out duration-500 ">About</Link>
+                <Link href="/projects" className="py-1 hover:underline scale-100  hover:scale-150 ease-out duration-500 ">Projects</Link>
+                <Link href="/experience" className="py-1 hover:underline scale-100  hover:scale-150 ease-out duration-500 ">Experience</Link>
               </motion.div>
             )}
           </AnimatePresence>
@@ -79,7 +73,7 @@ const ContactMe = () => {
       </div>
       <div>
         <Link href="/contactform"
-          className='text-10xl text-black font-semibold flex justify-center font-basic'
+          className='mt-10 text-10xl xl:text-10xl lg:text-9xl md:text-8xl text-black font-semibold flex justify-center font-basic'
           onMouseEnter={() => setUnderline(true)}
           onMouseLeave={() => setUnderline(false)}
         >
@@ -95,9 +89,9 @@ const ContactMe = () => {
         </div>
       </div>
       <div className='flex justify-center mb-5 gap-10 text-xl'>
-        <Link href="mailto:mansiy1527@gmail.com" className='hover:underline'>Mail</Link>
-        <Link href="https://www.linkedin.com/in/mansiyadav1527/" className='hover:underline'>LinkedIn</Link>
-        <Link href="https://github.com/Mansi1527" className='hover:underline'>Github</Link>
+        <Link href="mailto:mansiy1527@gmail.com" className='hover:underline  scale-100  hover:scale-150 ease-out duration-500 '>Mail</Link>
+        <Link href="https://www.linkedin.com/in/mansiyadav1527/" className='hover:underline scale-100  hover:scale-150 ease-out duration-500 '>LinkedIn</Link>
+        <Link href="https://github.com/Mansi1527" className='hover:underline scale-100  hover:scale-150 ease-out duration-500 '>Github</Link>
       </div>
     </div>
     </motion.div>
